@@ -48,7 +48,12 @@ function mousePressed() {
   boxes.push(new BouncingBox());
 }
 
-
+// Create a new box on touch press
+function touchStarted() {
+  userStartAudio();
+  playing = true;
+  boxes.push(new BouncingBox());
+}
 
 
 
