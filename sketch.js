@@ -1,5 +1,5 @@
 let boxes = []; // Array to hold multiple boxes
-let boxSize = 100;
+let boxSize = 90;
 
 // C major scale frequencies (C4 scale)
 let cMajorScale = [261.63, 293.66, 329.63, 349.23, 392.00, 440.00, 493.88];
